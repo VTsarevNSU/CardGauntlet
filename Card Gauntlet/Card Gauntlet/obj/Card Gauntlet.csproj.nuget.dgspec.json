@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj": {}
+    "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj": {}
   },
   "projects": {
-    "D:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj": {
+    "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj",
+        "projectUniqueName": "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj",
         "projectName": "Card Gauntlet",
-        "projectPath": "D:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj",
+        "projectPath": "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\Card Gauntlet\\Card Gauntlet\\Card Gauntlet.csproj",
         "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
-        "outputPath": "D:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\Card Gauntlet\\Card Gauntlet\\obj\\",
+        "outputPath": "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\Card Gauntlet\\Card Gauntlet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
