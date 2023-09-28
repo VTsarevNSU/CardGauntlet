@@ -1,0 +1,11 @@
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\bin\Debug\net7.0\InterfacesLibrary.deps.json
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\bin\Debug\net7.0\InterfacesLibrary.dll
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\bin\Debug\net7.0\InterfacesLibrary.pdb
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\InterfacesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\InterfacesLibrary.AssemblyInfoInputs.cache
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\InterfacesLibrary.AssemblyInfo.cs
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\InterfacesLibrary.csproj.CoreCompileInputs.cache
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\InterfacesLibrary.dll
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\refint\InterfacesLibrary.dll
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\InterfacesLibrary.pdb
+D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\InterfacesLibrary\obj\Debug\net7.0\ref\InterfacesLibrary.dll
