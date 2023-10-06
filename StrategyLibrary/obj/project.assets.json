@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
+      "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
       "projectName": "StrategyLibrary",
-      "projectPath": "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
+      "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
       "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
-      "outputPath": "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\obj\\",
+      "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\InterfacesLibrary\\InterfacesLibrary.csproj": {
-              "projectPath": "d:\\Inthroughder cargo\\University Studying Materials\\4 year\\C#\\CardGauntlet\\InterfacesLibrary\\InterfacesLibrary.csproj"
+            "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\InterfacesLibrary\\InterfacesLibrary.csproj": {
+              "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\InterfacesLibrary\\InterfacesLibrary.csproj"
             }
           }
         }
@@ -82,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

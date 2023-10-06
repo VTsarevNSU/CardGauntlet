@@ -1,4 +1,4 @@
-﻿// launch: dotnet run
+﻿// launch: > dotnet run
 using System.Runtime.CompilerServices;
 
 using StrategyLibrary;

@@ -13,3 +13,18 @@ D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\Strat
 D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\refint\StrategyLibrary.dll
 D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.pdb
 D:\Inthroughder cargo\University Studying Materials\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\ref\StrategyLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\bin\Debug\net7.0\StrategyLibrary.deps.json
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\bin\Debug\net7.0\StrategyLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\bin\Debug\net7.0\StrategyLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\bin\Debug\net7.0\InterfacesLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\bin\Debug\net7.0\InterfacesLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.csproj.AssemblyReference.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.csproj.CoreCompileInputs.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.csproj.CopyComplete
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\refint\StrategyLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\ref\StrategyLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.AssemblyInfoInputs.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\StrategyLibrary\obj\Debug\net7.0\StrategyLibrary.AssemblyInfo.cs
