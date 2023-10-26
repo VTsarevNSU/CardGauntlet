@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj": {}
+    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\ExperimenterLibrary.csproj": {}
   },
   "projects": {
     "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
@@ -57,14 +57,74 @@
         }
       }
     },
-    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj": {
+    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\ExperimenterLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
-        "projectName": "StrategyLibrary",
-        "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
+        "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\ExperimenterLibrary.csproj",
+        "projectName": "ExperimenterLibrary",
+        "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\ExperimenterLibrary.csproj",
         "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
-        "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\obj\\",
+        "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\PlayerLibrary.csproj": {
+                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\PlayerLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\PlayerLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\PlayerLibrary.csproj",
+        "projectName": "PlayerLibrary",
+        "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\PlayerLibrary.csproj",
+        "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
+        "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"

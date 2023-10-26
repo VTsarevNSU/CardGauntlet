@@ -6,28 +6,42 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "StrategyLibrary/1.0.0": {
+      "ExperimenterLibrary/1.0.0": {
         "dependencies": {
-          "Contracts": "1.0.0"
+          "Contracts": "1.0.0",
+          "PlayerLibrary": "1.0.0"
         },
         "runtime": {
-          "StrategyLibrary.dll": {}
+          "ExperimenterLibrary.dll": {}
         }
       },
       "Contracts/1.0.0": {
         "runtime": {
           "Contracts.dll": {}
         }
+      },
+      "PlayerLibrary/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.0"
+        },
+        "runtime": {
+          "PlayerLibrary.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "StrategyLibrary/1.0.0": {
+    "ExperimenterLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlayerLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

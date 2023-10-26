@@ -1,0 +1,17 @@
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\ExperimenterLibrary.deps.json
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\ExperimenterLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\ExperimenterLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\Contracts.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\Contracts.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.csproj.AssemblyReference.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.AssemblyInfoInputs.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.AssemblyInfo.cs
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.csproj.CoreCompileInputs.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.csproj.CopyComplete
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\refint\ExperimenterLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ref\ExperimenterLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\PlayerLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\PlayerLibrary.pdb

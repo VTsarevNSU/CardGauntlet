@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/Contracts.dll": {}
         }
+      },
+      "PlayerLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PlayerLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlayerLibrary.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../Contracts/Contracts.csproj",
       "msbuildProject": "../Contracts/Contracts.csproj"
+    },
+    "PlayerLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PlayerLibrary/PlayerLibrary.csproj",
+      "msbuildProject": "../PlayerLibrary/PlayerLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Contracts >= 1.0.0"
+      "Contracts >= 1.0.0",
+      "PlayerLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -32,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
-      "projectName": "StrategyLibrary",
-      "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
+      "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\ExperimenterLibrary.csproj",
+      "projectName": "ExperimenterLibrary",
+      "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\ExperimenterLibrary.csproj",
       "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
-      "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\obj\\",
+      "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ExperimenterLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,6 +72,9 @@
           "projectReferences": {
             "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
               "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj"
+            },
+            "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\PlayerLibrary.csproj": {
+              "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\PlayerLibrary\\PlayerLibrary.csproj"
             }
           }
         }

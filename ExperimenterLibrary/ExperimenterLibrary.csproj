@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj" />
+    <ProjectReference Include="..\PlayerLibrary\PlayerLibrary.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
