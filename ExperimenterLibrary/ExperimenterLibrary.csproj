@@ -1,8 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Contracts\Contracts.csproj" />
     <ProjectReference Include="..\PlayerLibrary\PlayerLibrary.csproj" />
+    <ProjectReference Include="..\StrategyLibrary\StrategyLibrary.csproj" />
+    <ProjectReference Include="..\ShufflerLibrary\ShufflerLibrary.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

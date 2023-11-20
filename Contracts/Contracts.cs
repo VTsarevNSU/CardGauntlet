@@ -17,10 +17,17 @@ public interface ICardPickStrategy
 
 public interface IShuffler
 {
-    public void Shuffle(ref Card[] array);
+    public Card[] Shuffle(Card[] deck);
+    public Card[] CreateDeck();
 }
 
 public interface IExperimenter
 {
-    public bool Conduct(Card[] deck);
+    public bool ConductSingle();
+    public float ConductMultiple(int n);
+}
+
+public interface IPlayer
+{
+    public int PickCard(Card[] cards);
 }

@@ -3,7 +3,7 @@ using CardGauntlet.Contracts;
 
 namespace CardGauntlet.PlayerLibrary;
 
-public class Player
+public class Player : IPlayer
 {
 
     private ICardPickStrategy _strategy;

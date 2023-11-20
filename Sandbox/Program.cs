@@ -27,7 +27,7 @@ class Program
                 services.AddScoped<IExperimenter, Experimenter>();
                 services.AddScoped<IShuffler, Shuffler>();
                 services.AddScoped<ICardPickStrategy, Strategy>();
-                services.AddTransient<Player>();
+                services.AddTransient<IPlayer, Player>();
 
             });
     }

@@ -15,3 +15,7 @@ C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\
 C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ref\ExperimenterLibrary.dll
 C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\PlayerLibrary.dll
 C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\PlayerLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\ShufflerLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\StrategyLibrary.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\StrategyLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\ShufflerLibrary.pdb

@@ -8,8 +8,9 @@
     ".NETCoreApp,Version=v7.0": {
       "ExperimenterLibrary/1.0.0": {
         "dependencies": {
-          "Contracts": "1.0.0",
-          "PlayerLibrary": "1.0.0"
+          "PlayerLibrary": "1.0.0",
+          "ShufflerLibrary": "1.0.0",
+          "StrategyLibrary": "1.0.0"
         },
         "runtime": {
           "ExperimenterLibrary.dll": {}
@@ -27,6 +28,22 @@
         "runtime": {
           "PlayerLibrary.dll": {}
         }
+      },
+      "ShufflerLibrary/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.0"
+        },
+        "runtime": {
+          "ShufflerLibrary.dll": {}
+        }
+      },
+      "StrategyLibrary/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.0"
+        },
+        "runtime": {
+          "StrategyLibrary.dll": {}
+        }
       }
     }
   },
@@ -42,6 +59,16 @@
       "sha512": ""
     },
     "PlayerLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShufflerLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StrategyLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
