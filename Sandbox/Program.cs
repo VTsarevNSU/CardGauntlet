@@ -11,24 +11,36 @@ namespace CardGauntlet.Sandbox;
 
 class Program
 {
-
     public static void Main(string[] args)
     {
         CreateHostBuilder(args).Build().Run();
     }
 
-    public static IHostBuilder CreateHostBuilder(string[] args)        	
+    public static IHostBuilder CreateHostBuilder(string[] args)
     {
+        if (args.Length != 1)
+        {
+            Console.WriteLine("type: write, read, default");
+        }
         return Host.CreateDefaultBuilder(args)
-            .ConfigureServices((hostContext, services) =>
+            .ConfigureServices((_, services) =>
             {
-
-                services.AddHostedService<SandboxWorker>();
-                services.AddScoped<IExperimenter, Experimenter>();
+                switch (args[0])
+                {
+                    case "write":
+                        services.AddHostedService<ExperimenterWrite>();
+                        break;
+                    case "read":
+                        services.AddHostedService<ExperimenterRead>();
+                        break;
+                    case "default":
+                        services.AddHostedService<ExperimenterStandalone>();
+                        break;
+                }
+                services.AddDbContext<ApplicationDbContext>();
                 services.AddScoped<IShuffler, Shuffler>();
                 services.AddScoped<ICardPickStrategy, Strategy>();
                 services.AddTransient<IPlayer, Player>();
-
             });
     }
 }

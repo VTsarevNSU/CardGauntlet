@@ -19,3 +19,5 @@ C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\
 C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\StrategyLibrary.dll
 C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\StrategyLibrary.pdb
 C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\ShufflerLibrary.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\bin\Debug\net7.0\ExperimenterLibrary.runtimeconfig.json
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\ExperimenterLibrary\obj\Debug\net7.0\ExperimenterLibrary.genruntimeconfig.cache
