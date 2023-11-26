@@ -1,5 +1,4 @@
-﻿namespace CardGauntlet.LockerNew
-{
+﻿namespace CardGauntlet.LockerNew;
     public class LockerNew
     {
         private static object Lock = new();
@@ -33,5 +32,3 @@
             }
         }
     }
-
-}

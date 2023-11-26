@@ -23,8 +23,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mark", "Mark\Mark.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gods", "Gods\Gods.csproj", "{D6462E8A-C59D-45A4-8739-810E1011C20D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locker", "Locker\Locker.csproj", "{878BA90C-8F08-4F09-AD52-CCE60A6DB7C0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockerNew", "LockerNew\LockerNew.csproj", "{A5B5D9AD-5D23-4D70-82F0-390491D933D4}"
 EndProject
 Global

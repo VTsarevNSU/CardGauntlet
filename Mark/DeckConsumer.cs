@@ -1,26 +1,17 @@
 using CardGauntlet.Contracts;
-using MarkWeb;
+using Mark;
 using MassTransit;
 using CardGauntlet.StrategyLibrary;
 
-namespace Consumers
+namespace Consumers;
+public class DeckConsumer : IConsumer<CardMessage>
 {
-    public class DeckConsumer : IConsumer<CardMessage>
+    public Task Consume(ConsumeContext<CardMessage> context)
     {
-        public Task Consume(ConsumeContext<CardMessage> context)
-        {
-            var cards = context.Message.Cards;
-            MarkDeck.Cards = cards;
-            ICardPickStrategy markStrategy = new Strategy();
-            int markChoice = markStrategy.Pick(cards.ToArray());
-
-            context.Publish(new NumberCardMessage
-            {
-                Number = markChoice,
-                Player = "Mark"
-            });
-
-            return Task.CompletedTask;
-        }    
-    }
+        MarkDeck.Cards = context.Message.Cards;
+        ICardPickStrategy markStrategy = new Strategy();
+        int markChoice = markStrategy.Pick(context.Message.Cards.ToArray());
+        context.Publish(new NumberCardMessage { Number = markChoice, Player = "Mark" });
+        return Task.CompletedTask;
+    }    
 }

@@ -2,17 +2,16 @@ using CardGauntlet.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using CardGauntlet.LockerNew;
 
-namespace MarkWeb
+namespace Mark;
+
+[ApiController]
+public class MarkController : ControllerBase
 {
-    [ApiController]
-    public class MarkController : ControllerBase
+    [Route("game")]
+    [HttpGet]
+    public async Task<CardColor> GetColor()
     {
-        [Route("game")]
-        [HttpGet]
-        public async Task<CardColor> GetColor()
-        {
-            await LockerNew.WaitForResourceAsync();
-            return await Task.FromResult(MarkDeck.Color);
-        }
+        await LockerNew.WaitForResourceAsync();
+        return await Task.FromResult(MarkDeck.Color);
     }
 }

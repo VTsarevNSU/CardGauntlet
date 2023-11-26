@@ -1,8 +1,9 @@
 using CardGauntlet.Contracts;
 
-namespace ElonWeb;
+namespace Elon;
+
 public class ElonDeck
 {
-    internal static List<Card> Cards { get; set; }
     internal static CardColor Color { get; set; }
+    internal static List<Card> Cards { get; set; }
 }

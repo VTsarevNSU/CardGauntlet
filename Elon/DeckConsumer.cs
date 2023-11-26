@@ -1,26 +1,17 @@
 using CardGauntlet.Contracts;
-using ElonWeb;
+using Elon;
 using MassTransit;
 using CardGauntlet.StrategyLibrary;
 
-namespace Consumers
+namespace Consumers;
+public class DeckConsumer: IConsumer<CardMessage>
 {
-    public class DeckConsumer : IConsumer<CardMessage>
+    public Task Consume(ConsumeContext<CardMessage> context)
     {
-        public Task Consume(ConsumeContext<CardMessage> context)
-        {
-            var cards = context.Message.Cards;
-            ElonDeck.Cards = cards;
-            ICardPickStrategy elonStrategy = new Strategy();
-            int elonChoice = elonStrategy.Pick(cards.ToArray());
-
-            context.Publish(new NumberCardMessage
-            {
-                Number = elonChoice,
-                Player = "Elon"
-            });
-
-            return Task.CompletedTask;
-        }    
-    }
+        ElonDeck.Cards = context.Message.Cards;
+        ICardPickStrategy elonStrategy = new Strategy();
+        int elonChoice = elonStrategy.Pick(context.Message.Cards.ToArray());
+        context.Publish(new NumberCardMessage {Number = elonChoice, Player = "Elon"});
+        return Task.CompletedTask;
+    }    
 }

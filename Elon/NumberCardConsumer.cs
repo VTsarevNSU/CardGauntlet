@@ -2,19 +2,16 @@ using CardGauntlet.LockerNew;
 using CardGauntlet.Contracts;
 using MassTransit;
 
-namespace ElonWeb
+namespace Elon;
+public class NumberCardConsumer: IConsumer<NumberCardMessage>
 {
-    public class NumberCardConsumer : IConsumer<NumberCardMessage>
+    public Task Consume(ConsumeContext<NumberCardMessage> context)
     {
-        public Task Consume(ConsumeContext<NumberCardMessage> context)
+        if (context.Message.Player == "Mark")
         {
-            if (context.Message.Player == "Mark")
-            {
-                ElonDeck.Color = ElonDeck.Cards[context.Message.Number].Color;
-                LockerNew.ResourceAvailable();
-            }
-
-            return Task.CompletedTask;
+            ElonDeck.Color = ElonDeck.Cards[context.Message.Number].Color;
+            LockerNew.ResourceAvailable();
         }
+        return Task.CompletedTask;
     }
 }
