@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Elon.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Elon.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

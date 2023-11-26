@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oZB4fjyp4szyhwGnPa3wMjB2udC7m2IaupFJExWrUhI=",
+  "Hash": "BxgKZt7XWs0YXabDNoyRmedVgvgxxWY4VlRDVz9kPAM=",
   "Source": "Elon",
   "BasePath": "_content/Elon",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Elon.styles.css",
-      "SourceId": "Elon",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Elon",
-      "RelativePath": "Elon.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Elon.styles.css"
-    },
-    {
-      "Identity": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Elon.bundle.scp.css",
-      "SourceId": "Elon",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Elon",
-      "RelativePath": "Elon.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Elon.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\wwwroot\\css\\site.css",
       "SourceId": "Elon",

@@ -31,3 +31,14 @@ public interface IPlayer
 {
     public int PickCard(Card[] cards);
 }
+
+public record CardMessage
+{
+    public List<Card> Cards { get; init; }
+}
+
+public record NumberCardMessage
+{
+    public int Number { get; init; }
+    public string? Player { get; init; }
+}

@@ -57,6 +57,59 @@
         }
       }
     },
+    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\LockerNew\\LockerNew.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\LockerNew\\LockerNew.csproj",
+        "projectName": "LockerNew",
+        "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\LockerNew\\LockerNew.csproj",
+        "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
+        "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\LockerNew\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\Mark.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -82,6 +135,9 @@
               "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
                 "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj"
               },
+              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\LockerNew\\LockerNew.csproj": {
+                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\LockerNew\\LockerNew.csproj"
+              },
               "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj": {
                 "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj"
               }
@@ -97,6 +153,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MassTransit.RabbitMq": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

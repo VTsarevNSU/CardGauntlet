@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v8lZnwgUYooBhTLDQzFpafrsUdXrvEG46UN1W64jgoA=",
+  "Hash": "+HPF2avc33Va8yvZG5OhGSFDIX02RmAPLx75aCT4TxM=",
   "Source": "Mark",
   "BasePath": "_content/Mark",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Mark.styles.css",
-      "SourceId": "Mark",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Mark",
-      "RelativePath": "Mark.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Mark.styles.css"
-    },
-    {
-      "Identity": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Mark.bundle.scp.css",
-      "SourceId": "Mark",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Mark",
-      "RelativePath": "Mark.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Mark.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\wwwroot\\css\\site.css",
       "SourceId": "Mark",

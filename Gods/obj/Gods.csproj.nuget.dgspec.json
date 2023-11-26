@@ -57,69 +57,6 @@
         }
       }
     },
-    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\Elon.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\Elon.csproj",
-        "projectName": "Elon",
-        "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\Elon.csproj",
-        "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
-        "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj"
-              },
-              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj": {
-                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Gods\\Gods.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -145,12 +82,6 @@
               "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
                 "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj"
               },
-              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\Elon.csproj": {
-                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Elon\\Elon.csproj"
-              },
-              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\Mark.csproj": {
-                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\Mark.csproj"
-              },
               "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ShufflerLibrary\\ShufflerLibrary.csproj": {
                 "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ShufflerLibrary\\ShufflerLibrary.csproj"
               }
@@ -166,66 +97,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\Mark.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\Mark.csproj",
-        "projectName": "Mark",
-        "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\Mark.csproj",
-        "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
-        "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj"
-              },
-              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj": {
-                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -238,9 +123,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -257,63 +139,6 @@
         "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ShufflerLibrary\\ShufflerLibrary.csproj",
         "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
         "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\ShufflerLibrary\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Contracts\\Contracts.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
-        "projectName": "StrategyLibrary",
-        "projectPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\StrategyLibrary.csproj",
-        "packagesPath": "C:\\Users\\Inthr\\.nuget\\packages\\",
-        "outputPath": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\StrategyLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Inthr\\AppData\\Roaming\\NuGet\\NuGet.Config"

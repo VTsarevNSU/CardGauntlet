@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Mark.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Mark.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Conniving\\Learning\\University\\4 year\\C#\\CardGauntlet\\Mark\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,0 +1,11 @@
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\bin\Debug\net7.0\LockerNew.deps.json
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\bin\Debug\net7.0\LockerNew.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\bin\Debug\net7.0\LockerNew.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\LockerNew.GeneratedMSBuildEditorConfig.editorconfig
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\LockerNew.AssemblyInfoInputs.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\LockerNew.AssemblyInfo.cs
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\LockerNew.csproj.CoreCompileInputs.cache
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\LockerNew.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\refint\LockerNew.dll
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\LockerNew.pdb
+C:\Conniving\Learning\University\4 year\C#\CardGauntlet\LockerNew\obj\Debug\net7.0\ref\LockerNew.dll
